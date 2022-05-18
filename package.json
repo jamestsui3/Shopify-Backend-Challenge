@@ -1,0 +1,38 @@
+{
+  "name": "shopify-backend-challenge",
+  "version": "1.0.0",
+  "description": "shopify backend challenge",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "dev": "nodemon server/app.js",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamestsui3/Shopify-Backend-Challenge.git"
+  },
+  "author": "Ka Tsui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamestsui3/Shopify-Backend-Challenge/issues"
+  },
+  "homepage": "https://github.com/jamestsui3/Shopify-Backend-Challenge#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "sequelize": "^6.19.2",
+    "sqlite3": "^5.0.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.12",
+    "@babel/preset-env": "^7.17.12",
+    "@babel/preset-react": "^7.17.12",
+    "babel-loader": "^8.2.5",
+    "nodemon": "^2.0.16",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
